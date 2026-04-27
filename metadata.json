@@ -1,0 +1,6 @@
+{
+  "name": "Gramin Arogya",
+  "description": "A voice-guided rural healthcare app supporting Marathi, Hindi, and English, featuring telemedicine, emergency help, and medicine reminders.",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["AI-guided symptom analysis", "Multi-language support"]
+}

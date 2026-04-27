@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Instrument+Serif:italic&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f5f5f0] text-[#141414] antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Accessibility focus states */
+  :focus-visible {
+    @apply outline-2 outline-emerald-500 outline-offset-2;
+  }
+}
+
+@layer components {
+  .safe-area-inset {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
