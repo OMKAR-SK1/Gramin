@@ -1,7 +1,7 @@
 
 export type Language = 'mr' | 'hi' | 'en';
 
-export type Screen = 'landing' | 'home' | 'health-info' | 'emergency' | 'doctor-call' | 'medicine-reminder' | 'hospital-locator';
+export type Screen = 'login' | 'home' | 'health-info' | 'emergency' | 'doctor-call' | 'medicine-reminder' | 'hospital-locator';
 
 export interface HealthCategory {
   id: string;
